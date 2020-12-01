@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="photogallrey.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/photogallery.css">
 </head>
 <body>
     <main>
+        <div class="d-flex justify-content-center p-3">
+            <h1 class="title">フォトギャラリー</h1>
+        </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -31,11 +34,22 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-          <div>
+          <div class="displayPhoto">
               <img src="img/155295_s.jpg" alt="">
               <img src="img/2592232_s.jpg" alt="">
               <img src="img/2592406_s.jpg" alt="">
           </div>
+          <div class="displayPhotoLg">
+            <img src="img/622250_s.jpg" alt="">
+            <div>
+                <h1>授業の様子</h1>
+            </div>
+          </div>
+          <div class="displayPhoto">
+            <img src="img/155295_s.jpg" alt="">
+            <img src="img/2592232_s.jpg" alt="">
+            <img src="img/2592406_s.jpg" alt="">
+        </div>
 
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

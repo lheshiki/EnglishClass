@@ -1,0 +1,35 @@
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.displayPhoto{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.displayPhoto img{
+    width: 350px;
+    height: auto;
+    margin: 20px;
+}
+.displayPhotoLg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.displayPhotoLg img{
+    max-width: 90%;
+    margin: 50px;
+}
+.displayPhotoLg div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayPhotoLg div h1{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 50px;
+}
