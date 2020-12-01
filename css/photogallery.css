@@ -1,10 +1,11 @@
 
 body{
-    
+    background: rgb(124, 4, 28);
 }
 .title{
     font-size: 40px;
     font-weight: 700;
+    color: white;
 }
 
 /* ーーーーーーーーーーー
@@ -12,6 +13,7 @@ body{
 ーーーーーーーーーーーー */
 .slider-container{
     padding: 0 200px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: center;
 }
@@ -58,6 +60,14 @@ body{
     font-weight: 700;
     margin: 50px;
 }
+.float-right{
+    float: right;
+    margin: 70px 70px 0 70px;
+}
+.float-left{
+    float: left;
+    margin: 70px 70px 0 70px;
+}
 
 /* ーーーーーーーーーーー
 写真の動き
@@ -66,11 +76,21 @@ body{
     opacity: 0;
     transform: translate(0, 45px);
     transition: all 700ms;
-    }
+    } 
     
 .effect-fade.effect-scroll {
     opacity: 1;
     transform: translate(0, 0);
+    }
+
+.effect-fadeL {
+        opacity: 0;
+        transform: translate(-50%, 0);
+        transition: 1s;
+    }
+.effect-fadeL.effect-scroll {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 
 /* ーーーーーーーーーーー
