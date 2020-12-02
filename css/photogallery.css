@@ -72,6 +72,9 @@ body{
 /* ーーーーーーーーーーー
 写真の動き
 ーーーーーーーーーーーー */
+.floatContainer{
+    height: auto;
+}
 .effect-fade {
     opacity: 0;
     transform: translate(0, 45px);
@@ -84,13 +87,22 @@ body{
     }
 
 .effect-fadeL {
-        opacity: 0;
-        transform: translate(-50%, 0);
-        transition: 1s;
+    opacity: 0;
+    transform: translate(-50%, 0);
+    transition: 1s;
     }
 .effect-fadeL.effect-scroll {
-        opacity: 1;
-        transform: translate(0, 0);
+    opacity: 1;
+    transform: translate(0, 0);
+    }
+.effect-fadeR{
+    opacity: 0;
+    transform: translate(50%, 0);
+    transition: 1s;
+}
+.effect-fadeR.effect-scroll {
+    opacity: 1;
+    transform: translate(0, 0);
     }
 
 /* ーーーーーーーーーーー
