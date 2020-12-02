@@ -21,8 +21,17 @@ h1{
     float: left;
 }
 
-.text_box{
-    float: right;
-    /* position: fixed; */
+
+
+.top_box{
+    display: flex;
+
 }
 
+.comment {
+    line-height: 150px;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
