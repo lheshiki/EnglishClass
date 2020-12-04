@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="body">
     <main>
         <div class="d-flex justify-content-center p-5">
             <h1 class="title">フォトギャラリー</h1>
@@ -58,4 +59,5 @@
            </div>
         </div>
     </main>
+</div>
     <?php get_footer(); ?>
