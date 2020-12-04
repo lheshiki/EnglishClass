@@ -66,7 +66,7 @@
               </p>
             </div>
             <div class="col-md-5">
-              <img class="featurette-image img-fluid mx-auto" alt="LuisPhoto" style="width: 500px; height: 500px;" src="img/563902876.jpg" data-holder-rendered="true">
+              <img class="featurette-image img-fluid mx-auto" alt="LuisPhoto" style="width: 500px; height: 500px;" src="<?php echo get_template_directory_uri(); ?>/img/563902876.jpg" data-holder-rendered="true">
             </div>
           </div>
     
@@ -88,7 +88,7 @@
 
             </div>
             <div class="col-md-5 order-md-1">
-              <img class="featurette-image img-fluid mx-auto" alt="yutakaphoto" src="img/sesame.jpeg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+              <img class="featurette-image img-fluid mx-auto" alt="yutakaphoto" src="<?php echo get_template_directory_uri(); ?>/img/sesame.jpeg" data-holder-rendered="true" style="width: 500px; height: 500px;">
             </div>
           </div>
 
@@ -109,7 +109,7 @@
               <li class="space">趣味：旅行、映画鑑賞、街歩き</li>
             </div>
             <div class="col-md-5">
-              <img class="featurette-image img-fluid mx-auto" alt="aiphoto" src="img/elmo.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+              <img class="featurette-image img-fluid mx-auto" alt="aiphoto" src="<?php echo get_template_directory_uri(); ?>/img/elmo.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
             </div>
           </div>
 
