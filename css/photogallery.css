@@ -35,7 +35,7 @@
 .displayPhoto img{
     width: 350px;
     height: auto;
-    margin: 0 40px 40px;
+    margin: 0 35px 40px;
 }
 .displayPhotoLg{
     display: flex;
@@ -48,7 +48,7 @@
 .displayPhotoLg img{
     max-width: 50%;
     height: auto;
-    margin: 0 70px;
+    margin: 0 60px;
 }
 .displayPhotoLg div{
     display: flex;
