@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css"> 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/photogallery.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/selfintroduction.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/photogallery.css">
 </head>
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
