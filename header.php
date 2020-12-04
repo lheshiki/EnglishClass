@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css"> 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/photogallery.css">
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -26,13 +28,13 @@
                     <a class="nav-link" href="<?php echo home_url(); ?>/index.php" style="font-size: 25px;">Home<span class="sr-only">（現在位置）</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/photogallery.php" style="font-size: 25px;">Photo gallery <span class="sr-only">（現在位置）</span></a>
+                    <a class="nav-link" href="<?php echo site_url(); ?>/index.php/photogallery/" style="font-size: 25px;">Photo gallery <span class="sr-only">（現在位置）</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/selfintroduction.php" style="font-size: 25px;">Self-introduction</a>
+                  <a class="nav-link" href="<?php echo site_url(); ?>/index.php/selfintroduction/" style="font-size: 25px;">Self-introduction</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/blog.php" style="font-size: 25px;">Blog</a>
+                  <a class="nav-link" href="<?php echo site_url(); ?>/index.php/blog/" style="font-size: 25px;">Blog</a>
                 </li>
               </ul>
             </div>

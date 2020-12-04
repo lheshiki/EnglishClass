@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php get_header(); ?>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,9 +13,9 @@
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script> -->
     <!-- ヘッダー -->
-    <header id="header">
+    <!-- <header id="header">
         <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #730f14;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -36,7 +38,7 @@
               </ul>
             </div>
           </nav>
-       </header>
+       </header> -->
      <div class="container">
             <!-- ここから主力記事二つ！ -->
             <div class="row mb-2" style="margin-top: 10px;">
