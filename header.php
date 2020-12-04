@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<<<<<<< HEAD
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css"> 
+=======
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/photogallery.css">
+>>>>>>> e94087fbece09da9e0c9dfa16edc6bf665d7833f
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/selfintroduction.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/photogallery.css">
 </head>
