@@ -46,7 +46,7 @@
     margin-top: 50px;
 }
 .displayPhotoLg img{
-    max-width: 90%;
+    max-width: 50%;
     height: auto;
     margin: 0 70px;
 }
@@ -165,7 +165,7 @@ footer p{
         margin-top: 20px;
     }
     .displayPhotoLg img{
-        max-width: 80%;
+        max-width: 50%;
         margin: 0 30px;
     }
     .displayPhotoLg div h1{
