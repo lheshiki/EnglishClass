@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <!-- link CSS -->
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/selfintroduction.css">
-        <!-- font awesome --->
-        <script src="https://kit.fontawesome.com/eadb05d339.js" crossorigin="anonymous"></script>
-        <title>Luis English</title>
-     </head>
-     <body>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-          <!-- ヘッダー -->
-          <header id="header">
-            <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #730f14;">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-                  <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="home.html" style="font-size: 25px;">Home<span class="sr-only">（現在位置）</span></a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="photogallery.html" style="font-size: 25px;">Photo gallery <span class="sr-only">（現在位置）</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="selfintroduction.html" style="font-size: 25px;">Self-introduction</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="blog.html" style="font-size: 25px;">Blog</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-           </header>
+<?php get_header(); ?>
 
 
      <div class="container">
