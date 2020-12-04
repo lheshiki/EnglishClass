@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="home_body">
        <br class="iphone ipad">
        <br class="iphone ipad">
        <br class="iphone ipad">
@@ -52,4 +53,5 @@
         <br class="iphone">
         <br class="iphone">
         <br class="iphone">
+</div>
 <?php get_footer(); ?>

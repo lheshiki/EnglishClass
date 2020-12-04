@@ -16,7 +16,7 @@
     {
      .ipad{display: block;}
      
-     body{background: linear-gradient(25deg, rgba(119, 7, 7, 0.7),
+     .home_body{background: linear-gradient(25deg, rgba(119, 7, 7, 0.7),
         rgba(240, 245, 240, 0.7))
         ,url(../img/square.png);}
         
@@ -27,11 +27,11 @@
     {
         .iphone{display: block;}
 
-        body{background: linear-gradient(25deg, rgba(119, 7, 7, 0.7),
+        .home_body{background: linear-gradient(25deg, rgba(119, 7, 7, 0.7),
             rgba(240, 245, 240, 0.7))
             ,url(../img/square.png);}
             
-        img{width: 400px;
+        .swiper-slide img{width: 400px;
             height: 266px;}
     }
 
