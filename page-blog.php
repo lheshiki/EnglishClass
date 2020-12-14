@@ -1,44 +1,6 @@
 <?php get_header(); ?>
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b1874ca7b5.js" crossorigin="anonymous"></script>
 
-    <title>Blog</title>
-</head>
-<body>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script> -->
-    <!-- ヘッダー -->
-    <!-- <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #730f14;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-              <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="home.html" style="font-size: 25px;">Home<span class="sr-only">（現在位置）</span></a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="photogallery.html" style="font-size: 25px;">Photo gallery <span class="sr-only">（現在位置）</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="selfintroduction.html" style="font-size: 25px;">Self-introduction</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="blog.html" style="font-size: 25px;">Blog</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-       </header> -->
      <div class="container">
             <!-- ここから主力記事二つ！ -->
             <div class="row mb-2" style="margin-top: 10px;">
@@ -56,7 +18,7 @@
                     <!-- <a href="#">Continue reading</a> -->
                     <a href="#">続きを読む</a>
                     </div>
-                    <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1761e757eca%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1761e757eca%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                    <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/img/thumbnail.png" width="200px" height="250px">
                 </div>
                 </div>
                 <div class="col-md-6">
@@ -72,7 +34,7 @@
                     <!-- <a href="#">Continue reading</a> -->
                     <a href="#">続きを読む</a>
                     </div>
-                    <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1761e757ecf%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1761e757ecf%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                    <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/img/flipcup.png" width="200px" height="250px">
                 </div>
                 </div>
             </div>
