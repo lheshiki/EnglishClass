@@ -14,9 +14,9 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/155295_s.jpg"></div>
-                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/2592232_s.jpg"></div>
-                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/2592406_s.jpg"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/englishclass1.png"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/englishclass3.png"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/englishclass5.png"></div>
                 ...
             </div>
             <!-- If we need pagination -->
