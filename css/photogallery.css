@@ -160,7 +160,7 @@ footer p{
         margin-top: 40px;
     }
     .displayPhoto img{
-        width: 250px;
+        width: 22vw;
         margin: 0 20px 20px;
     }
     .displayPhotoLg{
@@ -168,7 +168,7 @@ footer p{
         margin-top: 20px;
     }
     .displayPhotoLg img{
-        max-width: 50%;
+        width: 100vw;
         margin: 0 30px;
     }
     .displayPhotoLg div h1{
